@@ -60,7 +60,8 @@ function verificarChances(numero) {
         `
     } else if (chances == 0) {
         document.body.innerHTML = `
-            <h1>Você acabou com suas chances, e não acertou :(</h1>
+            <h1>Você desperdiçou sua última chance, e não acertou :(</h1>
+            <h3>O número secreto era: <span class="success">${numeroSecreto}</span></h3>
             <button id="jogar-novamente">Jogar Novamente</button>
         `
     }
