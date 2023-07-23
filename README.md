@@ -4,6 +4,8 @@
 </div>
 <br>
 <p align="center">Este repositório contém um jogo de adivinhação de um número sortido entre 01 e 100, com o reconhecimento de voz em JavaScript. Contendo validações para ver se o valor dito é válido (para ser válido, precisa ser um número podendo falar separadamente: "1", "0", "0", ou falar direto: "100"). Projeto feito e testado usando o navegador Chrome<p>
+<p>Alguns números podem dar erro, ou não serem ouvidos direitos por conta da entonação do número, alguns exemplos e soluções de como falar: números de 10 para baixo, falar separados exemplo "um, zero"; "zero, nove" por diante. Outro exemplo é o número 20 e o 100, as vezes será preciso falar "dois, zero" ou "um, zero zero";</p>
+<br>
 <p  align="center"><a href="https://barbourdev.github.io/ReconhecimentoDeVozJS/" target="_blank">Veja o projeto hospedado, clique aqui!<a/></p>
   
 ##
