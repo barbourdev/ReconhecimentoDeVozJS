@@ -33,7 +33,6 @@ function verificarValorFalado(chute) {
         `
         chances = chances - parseInt(1);
         elementoChances.innerHTML = chances;
-
     }
 }
 
