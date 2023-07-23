@@ -14,7 +14,7 @@ function verificarValorFalado(chute) {
     if (numero == numeroSecreto) {
         document.body.innerHTML = `
             <h1 class="success">Você acertou!</h1>
-            <h3 class="success">O número secreto era: ${numeroSecreto}</h3>
+            <h3>O número secreto era: <span class="success">${numeroSecreto}</span></h3>
             <button id="jogar-novamente">Jogar Novamente</button>
         `
     } else if (numero > numeroSecreto) {
