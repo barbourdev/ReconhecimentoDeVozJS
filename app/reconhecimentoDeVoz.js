@@ -1,6 +1,8 @@
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 const elementoChute = document.getElementById('chute');
+const elementoChances = document.getElementById('chances');
+
 let gravando = false;
 
 const recognition = new SpeechRecognition();
